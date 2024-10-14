@@ -1,0 +1,19 @@
+package:
+  name: nullable
+  description: A library for dealing with nulls
+  publish:
+    license: MIT
+    version: 7.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-nullable
+  dependencies:
+    - functions: ">=6.0.0 <7.0.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - prelude: ">=6.0.1 <7.0.0"
+  test:
+    main: Test.Main
+    dependencies:
+      - assert
+      - effect
+workspace: {}
